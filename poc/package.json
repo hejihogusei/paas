@@ -10,6 +10,7 @@
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"deploy": "wrangler pages deploy .svelte-kit/cloudflare --project-name=paas",
+		"build-edge": "vite build --config vite.config.edge.ts",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",

@@ -5,7 +5,7 @@ const config = {
 	preprocess: vitePreprocess(),
 	kit: {
 		adapter: adapter({
-			config: "wrangler.jsonc",
+			config: "wrangler.toml",
 			platformProxy: {
 				configPath: undefined,
 				environment: undefined,
