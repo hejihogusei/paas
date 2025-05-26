@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
-	"packageManager": "pnpm@8.7.1",
+	"packageManager": "pnpm@10.11.0",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -21,7 +21,7 @@
 		"build-storybook": "storybook build"
 	},
 	"engines" : {
-		"node": ">=18.18.0"
+		"node": "^18.18.0 || ^20.9.0 || >=21.1.0"
 	},
 	"devDependencies": {
 		"@chromatic-com/storybook": "^3",
